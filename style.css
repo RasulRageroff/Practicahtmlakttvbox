@@ -1,0 +1,130 @@
+body{
+    background-color: #31344e;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: white;
+}
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+p{
+    margin: 0 0 10px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header{
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0;
+    border-bottom: 1px solid #515369;
+}
+
+
+.nav{
+    display: flex;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+
+.nav__link{
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.75;
+    margin-left: 60px;
+    transition: opacity .1s linear;
+}
+
+.nav__link:first-child{
+    margin-left: 0;;
+}
+.nav__link:hover{
+    opacity: 1;
+    
+}
+/* -  intro   - */
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    padding: 100px; 
+    height: 750px;
+    background: #31344e url("img/introbg.jpg") center no-repeat;
+}
+
+.intro__inner{
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+    text-align: center;
+}
+.intro__title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 65px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0 0 30px;
+    text-transform: uppercase;
+    
+
+}
+.intro__subtitle{
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    color: #fff;
+    max-width: 930px;
+    
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 60px;
+}
+
+.btn{  
+    font-family: inherit;
+    display: inline-block;
+    vertical-align: top;
+    padding: 14px 40px;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 3px;  
+    
+}
+
+.btn--red:hover{
+    background-color: #c03b3bee;
+    
+}
+
+
+.btn--red{
+    background-color: #e84545;
+}
+
