@@ -60,7 +60,7 @@ p{
 }
 
 .nav__link:first-child{
-    margin-left: 0;;
+    margin-left: 0;
 }
 .nav__link:hover{
     opacity: 1;
@@ -231,7 +231,133 @@ p{
     color: #fff;
 }
 
+/* team */
+
+.team{
+    margin: 100px 0;
+}
+
+.team__inner{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team__item{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.team__photo{
+    margin-bottom: 30px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.team__name{
+    margin-bottom: 8px;
+    font-size: 22px;
+    color: #2d3033;
+}
+
+.team__prof{
+    margin-bottom: 15px;
+    font-size: 13px;
+    color: #e84525;
+    text-transform: uppercase;
+}
+
+.team__text{
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #6c7279;
+}
+
+/* SOCIAL */
+
+.social{
+    display: flex;
+
+}
+
+.social_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin-right: 4px;
+    border: 1px solid #e8ecee;
+
+    
+}
+
+.social_icon{
+ fill: #c6cacc;
+ height: 18px;
+ width: auto;
+ 
+}
+.social_item:hover{
+    transition: .2s linear;
+    background-color: #e8ecee;
+}
+
+.social_item:hover .social_icon{
+    fill: black;
+}
 
 
+/* R E V I E W S  */
 
+.reviews{
+    overflow: hidden;
+    background-color: #53354a;
+}
 
+.reviews_item{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.reviews_photo{
+    height: 500px;
+    width: 50%;
+    position: relative;
+}
+
+.reviews_img{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 1;
+
+    transform: translateY(-50%);
+}
+
+.reviews_content{
+    display: flex;
+    
+    justify-content: center;
+    flex-direction: column ;
+    padding-left: 80px;
+    width: 50%;
+}
+.reviews_text{
+    margin-bottom: 28px;
+    font-family: 'Cardo',sans-serif;
+    font-style: italic;
+    font-size: 36px;
+    line-height: 1.2;
+    color: #fff;
+}
+.reviews_author{
+    
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
